@@ -11,7 +11,7 @@ function loadZ(){
     {
         //Get jquery
         var jq = document.createElement("script");
-        jq.setAttribute("src", "http://code.jquery.com/jquery-1.11.3.min.js");
+        jq.setAttribute("src", "https://code.jquery.com/jquery-1.11.3.min.js");
         document.body.appendChild(jq);
     }
 	
@@ -19,7 +19,7 @@ function loadZ(){
 		"nope.js"
 	];
      
-    var scriptHost = "http://wouterbrookhuis.github.io";
+    var scriptHost = "https://wouterbrookhuis.github.io";
      
     for(i = 0; i < z_scripts_9231289213.length; i++)
     {
