@@ -24,7 +24,7 @@ function loadZ(){
     for(i = 0; i < z_scripts_9231289213.length; i++)
     {
         var s = document.createElement("script");
-        s.setAttribute("src", scriptHost + "/" + z_scripts_9231289213[i] + ".js");
+        s.setAttribute("src", scriptHost + "/" + z_scripts_9231289213[i]);
         document.body.appendChild(s);
     }
     
